@@ -1,3 +1,87 @@
-<html>
-sample
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Signup page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+<style>
+  .out
+{
+  width:600px;
+  height:550px;
+  background-color:lightgray;
+  font-size:20px;
+  padding:40px;
+  font-family:lato;
+}
+.inp
+{
+  height:30px;
+  width:40%;
+  float:left;
+}
+.left
+{
+  width:40%;
+  float:left;
+  padding:30px;
+}
+.p
+{
+  width:100%;
+  height:100px;
+  border-bottom:3px solid green;
+  font-size:40px;
+  text-align:center;
+  text-indent:10px;
+  color:Gray;
+  
+}
+#error
+{
+  
+  width:50%;
+  float:right;
+  font-size:15px;
+  color:red;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div class="out">
+  <div class="p"><br><b>SIMPLE SIGNUP</b></div>
+<div class="left">
+  Username
+  <br><br><br>
+  Age
+  <br><br><br>
+  Email
+  <br><br><br>
+  Password
+  <br><br><br>
+  Re-enter Password
+  </div>
+  <br>
+  <input class="inp" id="user">
+  <br><br><br>
+  <input class="inp" type="number" id="age">
+  <br><br><br>
+  <input class="inp" id="email" >
+  <br><br><br>
+  <input class="inp" type="password" id="pass">
+  <br><br><br>
+  <input class="inp" id="repass" type="password">
+  <br><br>
+  <button onclick="check1()" >SIGN UP</button>
+  <div id="error"></div>
+</div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
 </html>
